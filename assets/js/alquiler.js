@@ -13,6 +13,8 @@ export const enAlquiler = (lista) => {
                 <p>${propiedad.descripcion}</p>
                 <p>Habitaciones: ${propiedad.habitaciones}</p>
                 <p>Precio: $${propiedad.costo}</p>
+                <p>${propiedad.smoke ? "Se permite fumar" : "No se permite fumar"}</p>
+                <p>${propiedad.pets ? "Se permiten animales" : "No se permiten animales"}</p>
             </div>
         `;
     }

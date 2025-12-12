@@ -6,7 +6,7 @@ export const propiedades_alquiler = [
         habitaciones: 'una habitación',
         costo: 0,
         smoke: false,
-        pets: true
+        pets: false
     },
 
     {
@@ -15,7 +15,7 @@ export const propiedades_alquiler = [
         descripcion: 'alquiler básico para dos personas',
         habitaciones: 'dos habitaciones',
         costo: 0,
-        smoke: false,
+        smoke: true,
         pets: true
     },
 
@@ -26,7 +26,7 @@ export const propiedades_alquiler = [
         habitaciones: 'tres habitaciones',
         costo: 0,
         smoke: false,
-        pets: true
+        pets: false
     },
 
     {
@@ -35,7 +35,7 @@ export const propiedades_alquiler = [
         descripcion: 'alquiler básico para cuatro personas',
         habitaciones: 'cuatro habitaciones',
         costo: 0,
-        smoke: false,
+        smoke: true,
         pets: true
     }
 ]
@@ -48,7 +48,7 @@ export const propiedades_venta = [
         descripcion: 'una agradable mansión con todo lo que quieres',
         habitaciones: '9 habitaciones',
         costo: 8000,
-        smoke: false,
+        smoke: true,
         pets: true
     },
 
@@ -68,8 +68,8 @@ export const propiedades_venta = [
         descripcion: 'una casita para cuando tengas más dinero',
         habitaciones: '3',
         costo: 500,
-        smoke: false,
-        pets: true
+        smoke: true,
+        pets: false
     },
 
     {
